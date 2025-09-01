@@ -1,12 +1,18 @@
-# React + Vite
+steps to run the "website" locally"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+install Node.js: https://nodejs.org/en/download/
 
-Currently, two official plugins are available:
+if using MacOS, might be different link/methods, instructions more suited to windows :(
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+if instructions here not clear for mac/windows, refer here: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
-## Expanding the ESLint configuration
+change directory to the project folder/to the parent folder of the index.html file
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+if it's the first time trying to run it, first run: npm install
+
+then run: npm run dev (if already ran npm install before, just run npm run dev)
+
+in terminal, it will show link (e.g. http://localhost:5173/), open it. can now see project.
+changes are shown everytime file is saved (ctrl/cmd + s)
+
+can experiment changing things in the css, jsx files to see what are the effects. index.html file generally untouched unless changing what page is the main page for example, or linking to a different css/stylesheet file
